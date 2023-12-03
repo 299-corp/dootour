@@ -1,78 +1,46 @@
-# Nuxt 3 Minimal Starter
+# Dootour
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Dootour](./.github/assets/logo_github.png)
 
-## Setup
+### 두바퀴 여행에 도움을 주는 웹페이지 입니다.
 
-Make sure to install the dependencies:
+> 2023년 8월 10일! 드디어 사전 출시 진행하였습니다!! 많관부!~
 
-```bash
-# npm
-npm install
+# 🌱 pre-release
 
-# pnpm
-pnpm install
+## Current Version: 0.1.0
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
+## 🖥️ Using tech stack
 
-## Development Server
+[![My Skills](https://skillicons.dev/icons?i=nuxtjs,vue,supabase,vercel,vite,ts,js,postgres,html,sass,vscode,vim,github)](https://skillicons.dev)
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
+## 사용한 기술은 아래와 같습니다.
 
-# pnpm
-pnpm run dev
+1. Element-Plus
+2. Pinia
+4. VueUse
+5. Nuxt/image
+6. Nuxt/color-mode
+7. Nuxt/i18n
+8. Nuxt/robots
+9. Nuxt/supabase
+10. Echarts
+11. Stylelint
+12. Vue daum postcode
+13. Naver Maps
 
-# yarn
-yarn dev
+## Package manager
 
-# bun
-bun run dev
-```
+### Bun
 
-## Production
+___
 
-Build the application for production:
+## 페이지 소개
 
-```bash
-# npm
-npm run build
+### 메인
+> - 네이버 지도를 이용한 서비스 생성
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# dootour
-# dootour
-# dootour
+### 로그인
+> - 간편로그인으로 간단하게 로그인 및 사용이 가능합니다!
