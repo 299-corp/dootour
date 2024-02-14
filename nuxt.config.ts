@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   components: [
     {
       path: '~/components',
-      pathPrefix: true
+      pathPrefix: false
     }
   ],
   imports: {
@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     ]
   },
   modules: [
+    '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/devtools',
     '@nuxtjs/eslint-module',
@@ -54,6 +55,10 @@ export default defineNuxtConfig({
     '@pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt'
   ],
+  ui: {
+    global: true,
+    icons: ['mdi', 'simple-icons']
+  },
   pinia: {
     storesDirs: [
       './stores/**'
@@ -101,6 +106,10 @@ export default defineNuxtConfig({
   },
   vueuse: {
     ssrHandlers: false
+  },
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light' // fallback value if not system preference found
   },
   robots: {
     rules: [
