@@ -1,0 +1,126 @@
+/**
+* ? Basic Color List ?
+*/
+$doo-primary-color: hsla(8deg 42% 65% / 100%);
+$doo-success-color: hsla(141deg 26% 60% / 100%);
+$doo-warning-color: hsla(38deg 76% 60% / 100%);
+$doo-danger-color: hsla(0deg 65% 52% / 100%);
+$doo-error-color: hsla(0deg 60% 60% / 100%);
+$doo-info-color: hsla(0deg 2% 65% / 100%);
+$doo-sepia-color: hsla(0deg 10% 24% / 90%);
+$doo-overlay-color: hsla(3deg 10% 30% / 30%);
+$doo-opacity-origin-black: hsla(0deg 0% 0% / 50%);
+$doo-license-color: hsla(210deg 100% 63% / 100%);
+$doo-neon-carrot-color: hsla(31deg 100% 63% / 100%);
+$doo-neon-fuchsia-color: hsla(349deg 99% 63% / 100%);
+$doo-origin-dark-color: hsla(0deg 0% 10% / 100%);
+
+/**
+* ? Basic Light Color List ? 
+*/
+$doo-primary-light-color: hsla(8deg 42% 85% / 100%);
+$doo-success-light-color: hsla(141deg 26% 85% / 100%);
+$doo-warning-light-color: hsla(38deg 76% 85% / 100%);
+$doo-danger-light-color: hsla(0deg 100% 85% / 100%);
+$doo-error-light-color: hsla(0deg 60% 85% / 100%);
+$doo-info-light-color: hsla(0deg 2% 85% / 100%);
+$doo-sepia-light-color: hsla(347deg 16% 85% / 100%);
+$doo-overlay-light-color: hsla(3deg 10% 85% / 30%);
+
+/**
+* ? Color Light Lists ?
+*/
+$doo-color-light-01: hsla(0deg 38% 3% / 100%);
+$doo-color-light-02: hsla(6deg 42% 5% / 100%);
+$doo-color-light-03: hsla(8deg 44% 7% / 100%);
+$doo-color-light-04: hsla(6deg 43% 14% / 100%);
+$doo-color-light-05: hsla(5deg 41% 21% / 100%);
+$doo-color-light-06: hsla(6deg 42% 28% / 100%);
+$doo-color-light-07: hsla(7deg 41% 32% / 100%);
+$doo-color-light-08: hsla(7deg 42% 36% / 100%);
+$doo-bg-color-origin-light: hsla(2deg 12% 98% / 100%);
+$doo-bg-color-light: hsla(35deg 40% 90% / 100%);
+$doo-opacity-light: hsla(0deg 0% 100% / 25%);
+$doo-border-color-light: hsla(0deg 12% 92% / 100%);
+
+/**
+* ? Color Dark Lists ?
+*/
+$doo-color-dark-01: hsla(200deg 90% 99% / 100%);
+$doo-color-dark-02: hsla(0deg 12% 92% / 100%);
+$doo-color-dark-03: hsla(4deg 18% 85% / 100%);
+$doo-color-dark-04: hsla(5deg 19% 77% / 100%);
+$doo-color-dark-05: hsla(6deg 20% 70% / 100%);
+$doo-color-dark-06: hsla(6deg 21% 62% / 100%);
+$doo-color-dark-07: hsla(7deg 20% 55% / 100%);
+$doo-color-dark-08: hsla(7deg 30% 40% / 100%);
+$doo-bg-color-dark: hsla(0deg 38% 3% / 100%);
+$doo-opacity-black: hsla(0deg 0% 0% / 20%);
+$doo-border-color-dark: hsla(6deg 42% 5% / 100%);
+
+/**
+* * Theme Lists *
+*/
+.light {
+  --doo-text-color: #{$doo-color-light-02};
+  --doo-text-black-color: #{$doo-color-light-02};
+  --doo-text-color-primary: #{$doo-color-light-03};
+  --doo-text-color-secondary: #{$doo-color-light-05};
+  --doo-text-color-tertiary: #{$doo-color-light-07};
+  --doo-bg-color: #{$doo-bg-color-origin-light};
+  --doo-bg-origin-white: #{$doo-bg-color-origin-light};
+  --doo-main-button-bg-color: #{$doo-color-dark-03};
+  --doo-button-bg-color: #{$doo-color-dark-02};
+  --doo-hover-color: #{$doo-color-dark-02};
+  --doo-border-color: #{$doo-border-color-dark};
+  --doo-nav-border-color: #{$doo-color-light-04};
+  --doo-primary-light: #{$doo-primary-color};
+  --doo-success-light: #{$doo-success-light-color};
+  --doo-warning-light: #{$doo-warning-light-color};
+  --doo-danger-light: #{$doo-danger-light-color};
+  --doo-sepia-light: #{$doo-sepia-light-color};
+  --doo-error-light: #{$doo-error-light-color};
+  --doo-info-light: #{$doo-info-light-color};
+
+  /**
+  * * Element Plus Theme Lists *
+  */
+  --doo-main-opacity-color: #{$doo-opacity-light};
+  --doo-overlay-color: #{$doo-overlay-color};
+  --doo-button-bg-hover-color: #{$doo-color-dark-03};
+  --doo-main-button-hover-color: #{$doo-color-dark-04};
+  --doo-switch-on-color: #{$doo-color-light-07};
+  --doo-switch-off-color: #{$doo-color-dark-07};
+}
+
+.dark {
+  --doo-text-color: #{$doo-color-dark-01};
+  --doo-text-black-color: #{$doo-color-light-02};
+  --doo-text-color-primary: #{$doo-color-dark-03};
+  --doo-text-color-secondary: #{$doo-color-dark-05};
+  --doo-text-color-tertiary: #{$doo-color-dark-07};
+  --doo-bg-color: #{$doo-bg-color-dark};
+  --doo-bg-origin-white: #{$doo-bg-color-light};
+  --doo-main-button-bg-color: #{$doo-color-light-07};
+  --doo-button-bg-color: #{$doo-color-light-04};
+  --doo-hover-color: #{$doo-color-light-07};
+  --doo-border-color: #{$doo-border-color-light};
+  --doo-nav-border-color: #{$doo-color-dark-04};
+  --doo-primary-light: #{$doo-primary-color};
+  --doo-success-light: #{$doo-success-color};
+  --doo-warning-light: #{$doo-warning-color};
+  --doo-danger-light: #{$doo-danger-light-color};
+  --doo-sepia-light: #{$doo-sepia-color};
+  --doo-error-light: #{$doo-error-light-color};
+  --doo-info-light: #{$doo-info-color};
+
+  /**
+  * * Element Plus Theme Lists *
+  */
+  --doo-main-opacity-color: #{$doo-opacity-black};
+  --doo-overlay-color: #{$doo-overlay-color};
+  --doo-button-bg-hover-color: #{$doo-color-light-07};
+  --doo-main-button-hover-color: #{$doo-color-light-06};
+  --doo-switch-on-color: #{$doo-color-light-07};
+  --doo-switch-off-color: #{$doo-color-dark-07};
+}

@@ -1,10 +1,17 @@
 {
   "cSpell.words": [
+    "Defaults",
+    "emits",
+    "naver",
     "nuxt",
     "nuxtjs",
     "pinia",
     "recommended",
     "stylelint",
     "supabase"
-  ]
+  ],
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested"
 }

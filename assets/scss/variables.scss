@@ -1,0 +1,11 @@
+/**
+* ? Styles Forward Lists ?
+*/
+@forward 'basic/size_list';
+@forward 'basic/color_list';
+
+/**
+* ? Foundation Lists ?
+*/
+@use 'basic/size_list' as *;
+@use 'basic/color_list' as *;
