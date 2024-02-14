@@ -1,0 +1,47 @@
+@use 'basic/b_index' as *;
+
+/**
+* * Theme Lists *
+*/
+:root {
+  --doo-text-color: #{$doo-color-light-02};
+  --doo-text-black-color: #{$doo-color-light-02};
+  --doo-text-color-primary: #{$doo-color-light-03};
+  --doo-text-color-secondary: #{$doo-color-light-05};
+  --doo-text-color-tertiary: #{$doo-color-light-07};
+  --doo-bg-color: #{$doo-bg-color-origin-light};
+  --doo-bg-origin-white: #{$doo-bg-color-origin-light};
+  --doo-main-button-bg-color: #{$doo-color-dark-03};
+  --doo-button-bg-color: #{$doo-color-dark-02};
+  --doo-hover-color: #{$doo-color-dark-02};
+  --doo-border-color: #{$doo-border-color-dark};
+  --doo-nav-border-color: #{$doo-color-light-04};
+  --doo-primary-light: #{$doo-primary-light-color};
+  --doo-success-light: #{$doo-success-light-color};
+  --doo-warning-light: #{$doo-warning-light-color};
+  --doo-danger-light: #{$doo-danger-light-color};
+  --doo-error-light: #{$doo-error-light-color};
+  --doo-info-light: #{$doo-info-light-color};
+}
+
+.dark-mode {
+  --doo-text-color: #{$doo-color-dark-01};
+  --doo-text-black-color: #{$doo-color-light-02};
+  --doo-text-color-primary: #{$doo-color-dark-03};
+  --doo-text-color-secondary: #{$doo-color-dark-05};
+  --doo-text-color-tertiary: #{$doo-color-dark-07};
+  --doo-bg-color: #{$doo-bg-color-dark};
+  --doo-bg-origin-white: #{$doo-bg-color-light};
+  --doo-main-button-bg-color: #{$doo-color-light-07};
+  --doo-button-bg-color: #{$doo-color-light-04};
+  --doo-hover-color: #{$doo-color-light-07};
+  --doo-border-color: #{$doo-border-color-light};
+  --doo-nav-border-color: #{$doo-color-dark-04};
+  --doo-primary-light: #{$doo-primary-light-color};
+  --doo-success-light: #{$doo-success-light-color};
+  --doo-warning-light: #{$doo-warning-light-color};
+  --doo-danger-light: #{$doo-danger-light-color};
+  --doo-error-light: #{$doo-error-light-color};
+  --doo-info-light: #{$doo-info-light-color};
+
+}
